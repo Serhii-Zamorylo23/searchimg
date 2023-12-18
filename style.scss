@@ -5,23 +5,21 @@
     row-gap: 20px;
     justify-content: center;
     margin-top: 10px;
+    column-gap: 20px;
 }
 .ImageItem{
     width: 200px;
     height: 200px;
     border-radius:10px;
-    &:hover{
-        .favbutton{
-            position: relative;
-            top:  0;
-            right: 100px;
-        }
     }
-    }
+.imageDiv{
+    width: 200px;
+}
 .favbutton{
+    overflow: hidden;
     position: relative;
     top:  -5px;
-    right: 111px;
+    right: 0;
 }
 .FavH2{
     display: flex;
@@ -39,4 +37,9 @@
     width: 400px;
     height: 400px;
     border-radius:10px;
+}
+:hover > .favbutton{
+    position: a;
+    top:  0;
+    right: 100px;
 }
