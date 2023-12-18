@@ -12,21 +12,16 @@
     border-radius:10px;
     &:hover{
         .favbutton{
-            position: absolute;
+            position: relative;
             top:  0;
-            right: 0;   
+            right: 100px;
         }
     }
-}
+    }
 .favbutton{
     position: relative;
     top:  -5px;
     right: 111px;
-    &:hover{
-        position: absolute;
-        top:  0;
-        right: 0;
-    }
 }
 .FavH2{
     display: flex;
