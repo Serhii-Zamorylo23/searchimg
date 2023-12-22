@@ -16,14 +16,21 @@
 }
 
 .imageDiv {
+  overflow: hidden;
   width: 200px;
+  height: 198px;
+}
+.imageDiv :hover > .favbutton {
+  position: absolute;
+  top: -23px;
+  right: -50px;
 }
 
 .favbutton {
-  overflow: hidden;
   position: relative;
-  top: -5px;
-  right: 0;
+  top: -3px;
+  right: -42px;
+  transition-duration: 0.2s;
 }
 
 .FavH2 {
@@ -44,10 +51,4 @@
   width: 400px;
   height: 400px;
   border-radius: 10px;
-}
-
-:hover > .favbutton {
-  position: a;
-  top: 0;
-  right: 100px;
 }/*# sourceMappingURL=style.css.map */
